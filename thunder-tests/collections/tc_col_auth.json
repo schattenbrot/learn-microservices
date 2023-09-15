@@ -1,0 +1,80 @@
+{
+    "_id": "844b7988-ce61-4768-a3d4-eb0c4caf9975",
+    "colName": "auth",
+    "created": "2023-07-18T11:38:04.184Z",
+    "sortNum": 10000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "bf61d590-3e13-4e6b-80e5-63cb29e5689c",
+            "colId": "844b7988-ce61-4768-a3d4-eb0c4caf9975",
+            "containerId": "",
+            "name": "user signup",
+            "url": "https://ticketing.dev/api/users/signup",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-07-18T11:38:27.741Z",
+            "modified": "2023-07-28T17:09:13.390Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"test@test.com\",\n  \"password\": \"password\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ed41136f-df32-48a5-90bb-401da6b3c249",
+            "colId": "844b7988-ce61-4768-a3d4-eb0c4caf9975",
+            "containerId": "",
+            "name": "user signin",
+            "url": "https://ticketing.dev/api/users/signin",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-07-19T10:28:55.671Z",
+            "modified": "2023-07-19T10:30:24.777Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"test@test.com\",\n  \"password\": \"password\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ce4d1dbf-77a4-4dd9-a3ac-a7075fdfb691",
+            "colId": "844b7988-ce61-4768-a3d4-eb0c4caf9975",
+            "containerId": "",
+            "name": "currentuser",
+            "url": "https://ticketing.dev/api/users/currentuser",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-07-19T11:05:43.540Z",
+            "modified": "2023-07-28T17:10:03.054Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "38d7be8e-09de-4f4a-873a-bbe86e809067",
+            "colId": "844b7988-ce61-4768-a3d4-eb0c4caf9975",
+            "containerId": "",
+            "name": "signout",
+            "url": "https://ticketing.dev/api/users/signout",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-07-19T11:12:03.262Z",
+            "modified": "2023-07-19T11:12:34.275Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"test@test.com\",\n  \"password\": \"password\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

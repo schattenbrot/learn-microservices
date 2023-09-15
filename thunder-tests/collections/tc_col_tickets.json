@@ -1,0 +1,75 @@
+{
+    "_id": "2456b06f-72e4-4122-bf20-9520efe69492",
+    "colName": "tickets",
+    "created": "2023-07-23T16:58:14.518Z",
+    "sortNum": 20000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "aede45bd-dec4-432b-9e29-66e437b12d11",
+            "colId": "2456b06f-72e4-4122-bf20-9520efe69492",
+            "containerId": "",
+            "name": "get ticket by id",
+            "url": "https://ticketing.dev/api/tickets/64c3f787b83921bf506b939f",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-07-23T16:58:26.623Z",
+            "modified": "2023-07-28T17:14:57.892Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6bd40f47-8772-4dcd-94f6-788eea2ae917",
+            "colId": "2456b06f-72e4-4122-bf20-9520efe69492",
+            "containerId": "",
+            "name": "create ticket",
+            "url": "https://ticketing.dev/api/tickets",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-07-23T17:04:19.708Z",
+            "modified": "2023-07-28T17:08:48.411Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"correct ticket\",\n  \"price\": 10\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "b1572d63-7cb1-4b35-b715-8adbda99b5a3",
+            "colId": "2456b06f-72e4-4122-bf20-9520efe69492",
+            "containerId": "",
+            "name": "get tickets",
+            "url": "https://ticketing.dev/api/tickets",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2023-07-28T17:10:29.373Z",
+            "modified": "2023-07-28T17:11:24.482Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b91796c1-3c21-4a39-8d9b-4a7641b95129",
+            "colId": "2456b06f-72e4-4122-bf20-9520efe69492",
+            "containerId": "",
+            "name": "update ticket",
+            "url": "https://ticketing.dev/api/tickets/64c3f787b83921bf506b939f",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-07-28T17:15:06.483Z",
+            "modified": "2023-07-28T17:15:45.570Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"correct ticket 4\",\n  \"price\": 10\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
